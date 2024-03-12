@@ -1,0 +1,22 @@
+API:
+
+POST Method:
+http://localhost:7000/api/policy/upload
+Payload:
+formData: {file: file_path}
+
+Get Method:
+http://localhost:7000/api/policy/policy_info
+
+Get Method:
+http://localhost:7000/api/policy/policy_info?username=lurable
+
+
+POST Method:
+http://localhost:7000/api/policy/message
+Payload:
+{
+    "message": "hello_world",
+    "day": "2024-03-12",
+    "time": "20:56"
+}
